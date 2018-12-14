@@ -1,0 +1,21 @@
+package placement.assignment.session1;
+
+public class Factorial {
+	
+	static int findFactorial(int n) {
+		
+		int res = 1, i;
+		for(i = 2; i<=n; i++)
+			res *= i;
+		System.out.println("Factorial of "+n +" is "+ res);
+			return res;
+	
+	}
+
+	public static void main(String[] args) {
+		int num = 5;
+	    findFactorial(3);
+
+	}
+
+}

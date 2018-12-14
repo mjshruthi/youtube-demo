@@ -1,0 +1,36 @@
+package ds.stack;
+
+public class App {
+
+	public static void main(String[] args) {
+		Stack theStack = new Stack(0);
+//		theStack.push('h');
+//		theStack.push('e');
+//		theStack.push('l');
+//		theStack.push('l');
+//		theStack.push('o');
+		
+//		while(!theStack.isEmpty()) {
+//			char value = theStack.pop();
+//			System.out.println(value);
+//		}
+		
+	}
+	
+		
+		public void reverseString(String str) {
+			int stackSize = str.length();
+			Stack theStack = new Stack(stackSize);
+			for (int i = 0; i<str.length(); i++) {
+				theStack.push(str.charAt(i));
+			}
+				
+		while(!theStack.isEmpty()) {
+			char value = theStack.pop();
+			System.out.println(value);
+		}
+		
+		}
+		
+
+}

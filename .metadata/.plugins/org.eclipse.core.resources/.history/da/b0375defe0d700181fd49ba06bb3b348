@@ -1,0 +1,31 @@
+
+public class Animal {
+	
+	String name;
+	int age;
+	int heightInInches;
+	String food;
+	
+	public Animal(String name, int age, int heightInInches, String food) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.heightInInches = heightInInches;
+		this.food = food;
+	}
+	
+	public void speak() {
+		System.out.println("I am a "+ name);
+		System.out.println("I am "+ heightInInches + " inches tall");
+		System.out.println("I am " + age + " years old");
+		System.out.println("I eat "+ food);	
+	}
+	
+	
+	public void eat(String food) {
+		System.out.println("I eat " + food + " give me " + food);
+	}
+	
+	
+
+}

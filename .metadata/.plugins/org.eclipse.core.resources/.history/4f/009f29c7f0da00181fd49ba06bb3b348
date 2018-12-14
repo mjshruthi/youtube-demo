@@ -1,0 +1,45 @@
+
+public class Counter {
+
+	String str = null;
+	int number = 0;
+	
+	
+   public Counter(String str) {
+		super();
+		this.str = str;
+	}
+
+
+public int increment() {
+	   number = number++;
+	   System.out.println("Value after increment is" + number);
+	  return number;
+   }
+   
+   public int getCurrentValue(){
+	   System.out.println("Current value is"+ number);
+	   return number;
+	 
+   }
+   
+   
+   public String toString() {
+	   return str + ":" + number;
+   }
+
+	public static void main(String[] args) {
+	
+		Counter counter = new Counter("myString");
+		
+		counter.increment();
+		counter.increment();
+		counter.increment();
+		counter.increment();
+		counter.increment();
+		counter.getCurrentValue();
+		
+
+	}
+
+}

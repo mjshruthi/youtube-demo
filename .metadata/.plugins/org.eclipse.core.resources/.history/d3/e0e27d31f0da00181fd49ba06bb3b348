@@ -1,0 +1,49 @@
+
+public class Counter {
+
+	String str;
+	int number;
+	
+	public String getNumber() {
+		System.out.println("Enter the number");
+		return str;
+	}
+
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
+
+
+	
+   public Counter(String str, int number) {
+		super();
+		this.str = str;
+		this.number = number;
+	}
+
+
+public int increment() {
+	   getNumber();
+	   number = number++;
+	   System.out.println("Value after increment is" + number);
+	  return number;
+   }
+   
+   public void getCurrentValue(int number){
+	   System.out.println("Current value is"+ number);
+	 
+   }
+   
+
+	public static void main(String[] args) {
+	
+		Counter counter = new Counter("7", 0);
+		
+		counter.increment();
+		counter.getCurrentValue(7);
+		
+
+	}
+
+}

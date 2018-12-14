@@ -1,0 +1,16 @@
+
+public class Home {
+
+	
+	int i = 12;//instance variables ---global variable
+	 
+	public void go() {
+		 i = 356;
+		 int j = 234;
+	}
+	
+	public void show() {
+		i = 7438;
+		//j = 54354;
+	}
+}

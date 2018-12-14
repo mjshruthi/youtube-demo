@@ -1,0 +1,22 @@
+
+public class Animal {
+	
+	String name;
+	int age;
+	int heightInInches;
+	String food;
+	
+	public Animal(String name, int age, int heightInInches) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.heightInInches = heightInInches;
+	}
+	
+	public void eat(String food) {
+		System.out.println("I eat " + food);
+	}
+	
+	
+
+}

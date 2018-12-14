@@ -1,0 +1,46 @@
+package placement.assignment.session1;
+
+import java.util.Scanner;
+
+public class SelectSwitchStatement {
+
+	public static void main(String[] args) {
+		String Transport;
+		Scanner s = new Scanner(System.in);
+		for(int i = 0; i<1; i++) {
+		System.out.println("Please enter the mode of Transport, bus, Train, Bike, Walk and Exit");
+		Transport = s.nextLine();
+		
+		if(Transport.equals("Exit")) {
+			System.out.println("Program completed..");
+			break;
+		}
+		else {
+		
+		
+		switch (Transport)
+		{
+			
+			case "Bus":
+				System.out.println("I will reach office in 40 mins");
+				break;
+			case "Train":
+				System.out.println("I will reach office in 30 mins");
+				break;
+			case "Bike":
+				System.out.println("I will reach office in 20 mins");
+				break;
+			case "Walk":
+				System.out.println("I don't go to office");
+				break;
+			default:
+				System.out.println("Invalid input, please check the options");
+				break;
+		}
+
+	}
+	i--;
+	System.out.println("*********");
+	}
+}
+}

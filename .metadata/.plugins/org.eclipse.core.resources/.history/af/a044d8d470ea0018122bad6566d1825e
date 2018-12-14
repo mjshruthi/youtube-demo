@@ -1,0 +1,18 @@
+package placement.assignment.session1;
+
+public class Factorial {
+	
+	public int Factorial(int i) {
+		int temp = i;
+		while (i>0){
+			i = i * (i - 1);
+		}
+		System.out.println("Factorial of "+temp +"is"+ i);
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

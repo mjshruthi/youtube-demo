@@ -1,0 +1,10 @@
+package placement.assignment.session1;
+
+public class SelectSwitchStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

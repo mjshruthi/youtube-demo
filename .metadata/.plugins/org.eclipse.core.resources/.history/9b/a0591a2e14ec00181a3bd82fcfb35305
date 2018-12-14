@@ -1,0 +1,33 @@
+/* main Ctrl + spacebar --> full main method
+ * Break point --> Ctrl + Shft+ b
+ * 
+ * WJP to perform swap numbers without using thrid variable.
+ * 
+ * 
+ */
+
+
+package placement.session1;
+
+public class Swap{
+
+	public static void main(String[] args) {
+	 int a, b, temp;
+	  a = 10;
+	  b = 20;
+	  
+	  System.out.println("Before Swap a = "+a+", b="+b);
+	  temp = a;
+	  
+	  a = b;
+	  b = temp;
+	  
+	  a = a+b;// a = 30, b = 20
+	  b = a-b;// a = 30, b = 10
+	  a = a - b;// a = 20, b = 10
+	  
+	  System.out.println("After Swap a = "+a+", b="+b);
+
+	}
+
+}

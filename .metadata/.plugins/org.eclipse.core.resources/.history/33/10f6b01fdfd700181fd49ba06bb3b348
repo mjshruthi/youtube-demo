@@ -1,0 +1,12 @@
+
+public class Zoo {
+
+	public static void main(String[] args) {
+		
+		
+		Animal A1  = new Animal("Lion", 10, 60,"meat");
+		
+
+	}
+
+}

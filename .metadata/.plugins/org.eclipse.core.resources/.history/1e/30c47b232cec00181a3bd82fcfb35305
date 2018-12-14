@@ -1,0 +1,22 @@
+package placement.assignment.session1;
+
+import java.io.Console;
+
+public class ThirdHighestInArray {
+
+	public static void main(String[] args) {
+		 int[] arr = new int[10];
+		 int FirstHighest = arr[0];
+		 int SecondHighest = arr[0];
+		 int ThirdHighest = arr[0];
+		 
+		 
+		 for(int i = 0; i< arr.length; i++) {
+		 arr[i] = int.(Console.ReadLine());
+		 if(arr[i] > FirstHighest) {
+			 FirstHighest = arr[i];
+		 }
+		 }
+	}
+
+}
